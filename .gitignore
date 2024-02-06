@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 /out/production/exercicios/estrutura_sequencial/terreno.class
 /out/
+/.idea/aws.xml
+/.idea/jpa-buddy.xml

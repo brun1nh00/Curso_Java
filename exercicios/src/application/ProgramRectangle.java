@@ -5,7 +5,7 @@ import entities.Rectangle;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex_Rectangle {
+public class ProgramRectangle {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);

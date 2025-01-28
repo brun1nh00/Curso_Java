@@ -2,10 +2,10 @@ package entities;
 
 public class Student {
 
-    private final String name;
-    private double grade1;
-    private double grade2;
-    private double grade3;
+    public String name;
+    private final double grade1;
+    private final double grade2;
+    private final double grade3;
 
 public Student(String name, double grade1, double grade2, double grade3) {
     this.name = name;
@@ -30,6 +30,7 @@ public double missingPoints() {
     }
 }
 
+@Override
 public String toString() {
     return "Final Grade = "
             + String.format("%.2f", finalGrade())

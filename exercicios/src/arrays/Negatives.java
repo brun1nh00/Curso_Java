@@ -9,20 +9,22 @@ public class Negatives {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        int n;
         System.out.print("Enter the number of elements: ");
-        int n = sc.nextInt();
+        n = sc.nextInt();
+
         int[] vect = new int[n];
 
-        for (int i : vect) {
+        for (int i = 0; i < n; i++) {
             System.out.print("Enter a number: ");
             vect[i] = sc.nextInt();
         }
 
         System.out.println("Negative numbers: ");
 
-        for (int j : vect) {
-            if (j < 0) {
-                System.out.printf("%d\n", j);
+        for (int i = 0; i < n; i++) {
+            if (vect[i] < 0) {
+                System.out.printf("%d\n", vect[i]);
             }
         }
 
